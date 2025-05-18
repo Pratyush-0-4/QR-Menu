@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery Website</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="css/hover-min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Section Start -->
+    <header class="navbar">
+        <nav id="site-top-nav" class="navbar-menu navbar-fixed-top">
+            <div class="container">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="index.html" title="Logo">
+                        <img src="image/p3.png" alt="Logo" class="img-responsive">
+                    </a>
+                </div>
+                <!-- Main Menu -->
+                <div class="menu text-right">
+                    <ul>
+                        <li><a class="hvr-underline-from-center" href="index.html">Home</a></li>
+                        <li><a class="hvr-underline-from-center" href="categories.html">Categories</a></li>
+                        <li><a class="hvr-underline-from-center" href="foods.html">Foods</a></li>
+                        <li><a class="hvr-underline-from-center" href="order.html">Order</a></li>
+                        <li><a class="hvr-underline-from-center" href="contact.html">Contact</a></li>
+                        <li><a class="hvr-underline-from-center" href="findus.html">Find us</a></li>
+                        <li><a class="hvr-underline-from-center" href="login.html">Login</a></li>
+                         <li>
+                            <a id="shopping-cart" class="shopping-cart">
+                                <i class="fa fa-cart-arrow-down"></i>
+                                 
+                            </a>
+                            <div id="cart-content" class="cart-content">
+                                <h3 class="text-center">Shopping Cart</h3>
+                                <div id="cart-items"></div>
+                                <p><strong>Total:</strong> ₹<span id="cart-total">0</span></p>
+                                <a href="order.html" class="btn-primary">Confirm Order</a>
+                                </div>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navigation Section End -->
+
+    <!-- Food Search Section Start -->
+    <section class="food-search text-center" >
+        <div class="container">
+            <h2 style="background: #44bd32;">Foods on <a href="#" class="text-white">"Indian Cuisins"</a></h2>
+        </div>
+    </section>
+    <!-- Food Search Section End -->
+
+    <!-- Foods Section Start -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Indian Cuisins Menu</h2>
+            <div class="heading-border"></div>
+            <div class="grid-2">
+              <div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Paneer Veggie Kofta Curry is a delicious, rich….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Paneer Malai Kofta</h4>
+            <p class="food-price">₹250</p>
+            <p class="food-details">Soft paneer dumplings in a rich, creamy cashew-based gravy.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/5214061c-b026-4ca9-a68a-9c0b06b3714f.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Matar Paneer</h4>
+            <p class="food-price">₹190</p>
+            <p class="food-details">Cottage cheese and green peas simmered in a spiced tomato gravy.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/97bca843-903e-4184-8a26-b321ac6d0f27.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Paneer Butter Masala</h4>
+            <p class="food-price">₹210</p>
+            <p class="food-details">Creamy and mildly spiced paneer dish with buttery tomato gravy.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Chicken Tikka Masala - Simply Recipes - Fewer….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Chicken Tikka Masala</h4>
+            <p class="food-price">₹300</p>
+            <p class="food-details">Grilled chicken chunks in a smoky, spiced tomato-cream sauce.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/c2cec379-6d0b-44f0-aaa1-33a58291d106.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Chicken Hyderabadi</h4>
+            <p class="food-price">₹280</p>
+            <p class="food-details">Spicy and flavorful chicken curry with a rich southern twist.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Butter Chicken - Savory Discovery.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Chicken Butter Masala</h4>
+            <p class="food-price">₹270</p>
+            <p class="food-details">Tender chicken in a velvety butter-rich tomato gravy.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Chicken Tikka Masala - Simply Recipes - Fewer….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Chicken Karahi</h4>
+            <p class="food-price">₹260</p>
+            <p class="food-details">North Indian-style chicken with onions, capsicum, and spices.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/c2cec379-6d0b-44f0-aaa1-33a58291d106.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Chicken Curry</h4>
+            <p class="food-price">₹240</p>
+            <p class="food-details">Classic homestyle chicken curry full of comforting spices.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/1f31819e-51b2-4187-bd9b-e6a26df7cdcd.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Egg Curry</h4>
+            <p class="food-price">₹160</p>
+            <p class="food-details">Boiled eggs in a spiced tomato-onion gravy.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/d3128463-b9f1-4a63-960d-333c44046b25.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Fish Curry</h4>
+            <p class="food-price">₹260</p>
+            <p class="food-details">Fresh fish simmered in a tangy, spiced curry base.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Picture a warm, soft, and slightly charred….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Tawa Roti (1 pc)</h4>
+            <p class="food-price">₹20</p>
+            <p class="food-details">Traditional whole wheat flatbread, soft and fresh off the griddle.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Tandoori Roti is an Indian bread which was….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Butter Tawa Roti (1 pc)</h4>
+            <p class="food-price">₹30</p>
+            <p class="food-details">Tawa roti brushed with butter for added flavor.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/2035e9be-3c4b-4f9a-a15a-96eafddbbd35.jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Plain Paratha (1 pc)</h4>
+            <p class="food-price">₹45</p>
+            <p class="food-details">Layered and flaky flatbread, perfect with any curry.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Lachha Paratha (Lachedar Paratha) is a popular….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Lachha Paratha (1 pc)</h4>
+            <p class="food-price">₹65</p>
+            <p class="food-details">Multi-layered paratha with crispy, flaky texture.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+<div class="food-menu-box">
+    <form action="">
+        <div class="food-menu-img">
+            <img src="images for indian/Masala Kulcha Embark on a flavorful adventure with….jpg" alt="" class="img-responsive img-curve">
+        </div>
+        <div class="food-menu-desc">
+            <h4>Masala Kulcha</h4>
+            <p class="food-price">₹95</p>
+            <p class="food-details">Stuffed and spiced North Indian bread, ideal with gravies.</p>
+            <input type="number" value="1" min="1">
+            <input type="submit" class="btn-primary" value="Add To Cart">
+        </div>
+    </form>
+</div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Foods Section End -->
+
+    <!-- Footer Section Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="grid-3">
+                <div class="text-center">
+                     <h3>About Us</h3><br>
+                    <p>Patio by Golden Orchid is a family-owned restaurant dedicated to providing exceptional food and a warm, inviting atmosphere. We are passionate about using fresh, locally sourced ingredients to create dishes that will tantalize your taste buds.</p>
+                    <p>Our chefs have years of experience crafting culinary masterpieces, and our friendly staff is committed to making your dining experience memorable.</p>
+                </div>
+                <div class="texr-center">
+                    <h3>Site Map</h3><br>
+                    <div class="site-links">
+                        <a href="categories.html">Categories</a>
+                        <a href="foods.html">Foods</a>
+                        <a href="order.html">Order</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="login.html">Login</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Social Links</h3><br>
+                    <div class="social">
+                        <ul>
+                        <li><a href="https://www.facebook.com/share/16tGhEytAk/"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a></li>
+                            <li><a href="https://www.instagram.com/patio_restaurant_darjeeling?igsh=dmVnNmRjcnlrcXht"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- Copyright Section start -->
+    <section class="copyright">
+        <div class="container text-center"> 
+            <p>All rights reserved. Design By <a href="#">St. Joseph's college students</a></p>
+        </div>
+        <a id="back-to-top" class="btn-primary">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+    </section>
+    <!-- Copyright Section End -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- Jquery UI -->
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
